@@ -1,0 +1,20 @@
+*{
+    background: orange;
+    
+}
+
+.js-clock{
+    margin-top: 5vh;
+    width:auto;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+h1{
+    color: white;
+ 
+}
+
