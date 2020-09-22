@@ -6,10 +6,10 @@
 .js-clock{
     margin-top: 5vh;
     width:auto;
-    height:90vh;
+    height:60vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     font-size: 3rem;
 }
 
@@ -18,3 +18,28 @@ h1{
  
 }
 
+
+input{
+    background-color:white;
+    border: none;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.js-greeting{
+    color:white;
+    font-size:2rem;
+}
+
+
+.form,
+.greeting{
+    display: none;
+}
+
+.showing{
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+}
