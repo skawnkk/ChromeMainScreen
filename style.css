@@ -1,26 +1,56 @@
-*{
-    background: orange;
-    
+body{
+    background-color: #2c3e50;
+    margin-top: 0;
+    margin-left:  0;
+    margin-right:  0;
+    z-index: -1;
 }
 
+.contents{
+    position: relative;
+    z-index:100;
+}
+
+
+.js-weather{
+    display: flex;
+    justify-content: center;
+
+}
 .js-clock{
-    margin-top: 5vh;
+    margin-top: 0vh;
+    margin-block-start: 0;
+    margin-block-end: 0;
     width:auto;
-    height:60vh;
+    height:50vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     font-size: 3rem;
 }
 
-h1{
-    color: white;
- 
-}
 
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.bgImage{
+    position: absolute;
+    width: 100%;
+    z-index: -2;   
+    animation: fadeIn 0.5s linear;
+    
+}
 
 input{
     background-color:white;
+    opacity:0.7;
     border: none;
     font-size: 2rem;
     text-align: center;
@@ -28,7 +58,6 @@ input{
 }
 
 .js-greeting{
-    color:white;
     font-size:2rem;
 }
 
@@ -42,4 +71,25 @@ input{
     display: flex;
     justify-content:center;
     align-items: flex-start;
+    margin-top: 2vh;
+}
+
+.js-todoList button{
+    border: none;
+    cursor: pointer;
+}
+
+.js-todoList{
+    margin-left:25vw;
+}
+
+span{
+    background-color: white;
+    margin:0.5em;
+    opacity:0.7;
+    
+}
+
+li{
+    margin-top: 0.3em;
 }

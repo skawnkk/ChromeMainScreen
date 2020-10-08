@@ -7,14 +7,8 @@ const USER_LS = "currentUser";
 const SHOWING_CN = "showing";
 
 
-// function enterkey() {
-//     if (input.event.keyCode == 13) {
-//         loadName();
-//     }
-// }
-
 function saveName(nameValue){
-    localStorage.setItem(USER_LS,nameValue);
+    localStorage.setItem(USER_LS, nameValue);
 }
 
 function makeGreeting(nameValue){
@@ -36,9 +30,7 @@ function submitName(){
 }
 
 
-
 function loadName(){
-    
     const currentUser = localStorage.getItem(USER_LS);
 
     if(currentUser === null){
