@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StartPage</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
     <script src="clock.js" defer></script>
+    <script src="date.js" defer></script>
     <script src="greeting.js" defer></script>
     <script src="todo.js" defer></script>
     <script src="bg.js" defer></script>
     <script src="weather.js" defer></script>
+    
   </head>
 
   <body>
-    <div contents>
     <div class="js-clock">
-      <h1 class="title">00:00</h1>
+      <h1 class="mainClock">00:00</h1>
+      <div class="detail">
+        <p class="AMPM">PM</p>
+        <p class="seconds">00</p>
+      </div>
     </div>
+
+    <div class="js-date"></div>
 
     <div class="js-weather"></div>
 
@@ -29,7 +37,5 @@
       <input type="text" class="todoInput" placeholder="Write things to do" />
     </form>
     <ul class="js-todoList"></ul>
-
-  </div>
   </body>
 </html>
