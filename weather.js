@@ -2,6 +2,21 @@ const weather = document.querySelector(".js-weather");
 const API_KEY ="323c858787389fd3290ac61d8b4c444c";
 const COORDS = 'coords';
 
+function getWeatherIcon(description){
+    if (description == 'clear_sky'){
+        const sunny = new Image();
+        sunny.src=`./static/sunny.png`;
+        sunny.classList.add("WeatherIcon");
+        weather.append(sunny);
+    } else{
+        const clouds = new Image();
+        clouds.src=`./static/clouds.png`;
+        clouds.classList.add("WeatherIcon");
+        weather.append(clouds);
+    }
+}
+
+
 function getWeather(lat, lon){
     fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
     ).then(function(response){
@@ -12,7 +27,8 @@ function getWeather(lat, lon){
         const temperature = json.main.temp;
         const description = json.weather[0].description;
         console.log(place, description, temperature);
-        weather.innerHTML= `${temperature} ${description}  @${place}`;
+        weather.textContent= `${temperature} ${description}  @${place}`;
+        getWeatherIcon(description);
     });
 }
 
