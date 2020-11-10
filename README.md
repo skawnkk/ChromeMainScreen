@@ -3,7 +3,7 @@
 <p>한 파트별로 만드는 과정과 새로 배운 것들을 블로그에 정리.
   
   
- <p style="font-weight:bold">완성작</p>
+ <span style="font-weight:bolder"><<완성작>></span>
  <img src='https://blogfiles.pstatic.net/MjAyMDExMTBfNjEg/MDAxNjA0OTg5NDcwNzQy.bV16EMvSqDflgj9CBLyTkGKrnIbL2qfoDuuN_KpU5Sog.EK4chAZ7nNR8OzeB4yZ0xgSCycJmoERCxD6g0PtBGy4g.PNG.namju1v/image.png'/>
 
 <p><a href ="https://blog.naver.com/namju1v/222110340488">[Javascript] BTS 인터넷 시작화면 만들기 :) vanila JS</a>
