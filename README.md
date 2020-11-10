@@ -7,5 +7,6 @@
 <p><a href="https://blog.naver.com/namju1v/222126033858">[Javascript] 시작 화면 만들기(2)_ 배경화면 전환 (사진랜덤)🖼</a>
 <p><a href="https://blog.naver.com/namju1v/222130171352">[Javascript] 시작 화면 만들기(3-1)_인사말/할일목록<"데이터 저장하는 방법">💾</a>
 <p><a href="https://blog.naver.com/namju1v/222131824837">[Javascript] 시작 화면 만들기(3-2)_할일목록: 데이터 수정&저장💾</a>
+<p><a href="https://blog.naver.com/namju1v/222140648453">[Javascript] 크롬시작화면: 날씨 정보 띄우기_Weather_API🌞</a>
 <!--   <a href=""></a> -->
   
